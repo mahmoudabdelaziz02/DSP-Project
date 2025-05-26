@@ -22,8 +22,9 @@ Usage
 Run the script with the WFDB record file path (without extension):
 
 ```bash
-python signal_plotter.py --file "path_to_file/record_name" [--dft] [--wavelet]
+python signal_plotter.py --file filePath [--dft] [--wavelet]
 ```
+
 Arguments
 --file (required): Path to the WFDB file (exclude .dat or .hea extension).
 
@@ -33,7 +34,7 @@ Arguments
 
 Example
 ```bash
-python signal_plotter.py --file "C:\Users\hp\Downloads\pro0\pro1\129083\129083_PPG" --dft --wavelet
+python signal_plotter.py --file filePath --dft --wavelet
 ```
 Technical Details
 Uses wfdb to read WFDB-format signals.
